@@ -1,3 +1,24 @@
 
-test
-test1
+public class NewClass {
+    static int a;
+    int h = 123;
+    NewClass(){
+        a++;
+        h++;
+       // System.out.println(h);
+       //   System.out.println(a);
+    }
+}
+class New extends NewClass{
+    New(){
+       super();
+       System.out.println(a); 
+    }
+}
+
+class Neeeew extends NewClass{
+    Neeeew(){
+        super();
+        System.out.println(a);
+    }
+}
